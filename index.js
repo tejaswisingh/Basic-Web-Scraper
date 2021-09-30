@@ -1,8 +1,6 @@
 const PORT = 8000;
 const axios = require('axios');
 const cheerio = require('cheerio');
-const express = require('express');
-const {response} = require("express");
 
 const app = express();
 const url = 'https://enter the url of the website to be scraped here';
